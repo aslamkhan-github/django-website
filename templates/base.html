@@ -5,8 +5,8 @@
     <title>Django</title>
 </head>
 <body bgcolor="cyan">
-   {% block content %}
-
+   {% block staticload %}
+<script src="{% static 'MY_PAGE/js/main.js' %}"></script>
    {% endblock %}
 
 </body>
